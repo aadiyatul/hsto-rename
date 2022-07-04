@@ -25,6 +25,8 @@ Without any extra arguments it will just copy the input file into the output one
 
 ## Converting image tags
 
+![](img/convert.gif)
+
 To convert all the image links - both Markdown and HTML - to Markdown, use
 
 ```
@@ -45,7 +47,9 @@ Use optional parameters to format the HTML images (they do not work in Markdown)
 python -m hsto-rename input_file.md output_file.md -f html --width=600 --height=400 --align="center"
 ```
 
-## Renaming the images
+## Renaming images
+
+![](img/rename.gif)
 
 To automatically replace links to local images with the ones in the cloud, upload the images to the cloud and save all the links to the images into one file `cloud.txt`.
 
